@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8152.3" systemVersion="15A225f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8077.2"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Quizzard_Watch_WatchKit_1_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Label" textAlignment="center" numberOfLines="4" id="cAc-xt-btd"/>
+                        <button width="1" alignment="left" title="Button" id="AM8-O0-N4j">
+                            <connections>
+                                <action selector="Button1Action" destination="AgC-eL-Hgc" id="bEA-v3-5EN"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Button" id="iBe-a2-hN0">
+                            <connections>
+                                <action selector="Button2Action" destination="AgC-eL-Hgc" id="v9a-QA-uTl"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Button" id="RYE-Pb-wSu">
+                            <connections>
+                                <action selector="Button3Action" destination="AgC-eL-Hgc" id="RC4-lX-2PV"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Button" id="9DQ-v2-MXx">
+                            <connections>
+                                <action selector="Button4Action" destination="AgC-eL-Hgc" id="Pzx-YS-fEb"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Button1" destination="AM8-O0-N4j" id="vfh-LT-D7z"/>
+                        <outlet property="Button2" destination="iBe-a2-hN0" id="d3O-Xa-8WC"/>
+                        <outlet property="Button3" destination="RYE-Pb-wSu" id="xUE-iO-fZB"/>
+                        <outlet property="Button4" destination="9DQ-v2-MXx" id="93s-37-reb"/>
+                        <outlet property="QuestionLabel" destination="cAc-xt-btd" id="eYf-LW-LdW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="313" y="301.5"/>
+        </scene>
+    </scenes>
+</document>

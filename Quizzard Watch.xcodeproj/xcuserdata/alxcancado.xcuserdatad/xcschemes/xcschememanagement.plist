@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - Quizzard Watch WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Quizzard Watch WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Quizzard Watch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>648D9EAA1B74829000ACBB13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>648D9ED01B7482ED00ACBB13</key>
 		<dict>
 			<key>primary</key>
 			<true/>

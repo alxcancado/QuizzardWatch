@@ -12,7 +12,45 @@
 		648D9EB41B74829000ACBB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648D9EB21B74829000ACBB13 /* Main.storyboard */; };
 		648D9EB61B74829000ACBB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648D9EB51B74829000ACBB13 /* Assets.xcassets */; };
 		648D9EB91B74829000ACBB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648D9EB71B74829000ACBB13 /* LaunchScreen.storyboard */; };
+		648D9EC91B7482ED00ACBB13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648D9EC81B7482ED00ACBB13 /* InterfaceController.swift */; };
+		648D9ECB1B7482ED00ACBB13 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648D9ECA1B7482ED00ACBB13 /* NotificationController.swift */; };
+		648D9ECD1B7482ED00ACBB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648D9ECC1B7482ED00ACBB13 /* Assets.xcassets */; };
+		648D9ED21B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 648D9ED11B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app */; };
+		648D9ED81B7482ED00ACBB13 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648D9ED61B7482ED00ACBB13 /* Interface.storyboard */; };
+		648D9EDA1B7482ED00ACBB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648D9ED91B7482ED00ACBB13 /* Assets.xcassets */; };
+		648D9EDE1B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 648D9EC41B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648D9ED31B7482ED00ACBB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648D9EA31B74829000ACBB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648D9ED01B7482ED00ACBB13;
+			remoteInfo = "Quizzard Watch WatchKit 1 App";
+		};
+		648D9EDC1B7482ED00ACBB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648D9EA31B74829000ACBB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648D9EC31B7482ED00ACBB13;
+			remoteInfo = "Quizzard Watch WatchKit 1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		648D9EE51B7482ED00ACBB13 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				648D9EDE1B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		648D9EAB1B74829000ACBB13 /* Quizzard Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzard Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +60,27 @@
 		648D9EB51B74829000ACBB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		648D9EB81B74829000ACBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		648D9EBA1B74829000ACBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648D9EC41B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quizzard Watch WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648D9EC71B7482ED00ACBB13 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		648D9EC81B7482ED00ACBB13 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		648D9ECA1B7482ED00ACBB13 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		648D9ECC1B7482ED00ACBB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648D9ECE1B7482ED00ACBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648D9ED11B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzard Watch WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648D9ED71B7482ED00ACBB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		648D9ED91B7482ED00ACBB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648D9EDB1B7482ED00ACBB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		648D9EA81B74829000ACBB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648D9EC11B7482ED00ACBB13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				648D9EAD1B74829000ACBB13 /* Quizzard Watch */,
+				648D9EC51B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension */,
+				648D9ED51B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App */,
 				648D9EAC1B74829000ACBB13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				648D9EAB1B74829000ACBB13 /* Quizzard Watch.app */,
+				648D9EC41B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex */,
+				648D9ED11B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +123,36 @@
 			path = "Quizzard Watch";
 			sourceTree = "<group>";
 		};
+		648D9EC51B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				648D9EC81B7482ED00ACBB13 /* InterfaceController.swift */,
+				648D9ECA1B7482ED00ACBB13 /* NotificationController.swift */,
+				648D9ECC1B7482ED00ACBB13 /* Assets.xcassets */,
+				648D9ECE1B7482ED00ACBB13 /* Info.plist */,
+				648D9EC61B7482ED00ACBB13 /* Supporting Files */,
+			);
+			path = "Quizzard Watch WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		648D9EC61B7482ED00ACBB13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				648D9EC71B7482ED00ACBB13 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		648D9ED51B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				648D9ED61B7482ED00ACBB13 /* Interface.storyboard */,
+				648D9ED91B7482ED00ACBB13 /* Assets.xcassets */,
+				648D9EDB1B7482ED00ACBB13 /* Info.plist */,
+			);
+			path = "Quizzard Watch WatchKit 1 App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +163,50 @@
 				648D9EA71B74829000ACBB13 /* Sources */,
 				648D9EA81B74829000ACBB13 /* Frameworks */,
 				648D9EA91B74829000ACBB13 /* Resources */,
+				648D9EE51B7482ED00ACBB13 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				648D9EDD1B7482ED00ACBB13 /* PBXTargetDependency */,
 			);
 			name = "Quizzard Watch";
 			productName = "Quizzard Watch";
 			productReference = 648D9EAB1B74829000ACBB13 /* Quizzard Watch.app */;
 			productType = "com.apple.product-type.application";
+		};
+		648D9EC31B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648D9EE21B7482ED00ACBB13 /* Build configuration list for PBXNativeTarget "Quizzard Watch WatchKit 1 Extension" */;
+			buildPhases = (
+				648D9EC01B7482ED00ACBB13 /* Sources */,
+				648D9EC11B7482ED00ACBB13 /* Frameworks */,
+				648D9EC21B7482ED00ACBB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648D9ED41B7482ED00ACBB13 /* PBXTargetDependency */,
+			);
+			name = "Quizzard Watch WatchKit 1 Extension";
+			productName = "Quizzard Watch WatchKit 1 Extension";
+			productReference = 648D9EC41B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		648D9ED01B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648D9EDF1B7482ED00ACBB13 /* Build configuration list for PBXNativeTarget "Quizzard Watch WatchKit 1 App" */;
+			buildPhases = (
+				648D9ECF1B7482ED00ACBB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quizzard Watch WatchKit 1 App";
+			productName = "Quizzard Watch WatchKit 1 App";
+			productReference = 648D9ED11B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +218,12 @@
 				ORGANIZATIONNAME = "Alex Lima Lopes Cancado";
 				TargetAttributes = {
 					648D9EAA1B74829000ACBB13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					648D9EC31B7482ED00ACBB13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					648D9ED01B7482ED00ACBB13 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -112,6 +242,8 @@
 			projectRoot = "";
 			targets = (
 				648D9EAA1B74829000ACBB13 /* Quizzard Watch */,
+				648D9EC31B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension */,
+				648D9ED01B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +259,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		648D9EC21B7482ED00ACBB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648D9ED21B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App.app in Resources */,
+				648D9ECD1B7482ED00ACBB13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648D9ECF1B7482ED00ACBB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648D9EDA1B7482ED00ACBB13 /* Assets.xcassets in Resources */,
+				648D9ED81B7482ED00ACBB13 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,7 +289,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		648D9EC01B7482ED00ACBB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648D9ECB1B7482ED00ACBB13 /* NotificationController.swift in Sources */,
+				648D9EC91B7482ED00ACBB13 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648D9ED41B7482ED00ACBB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648D9ED01B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 App */;
+			targetProxy = 648D9ED31B7482ED00ACBB13 /* PBXContainerItemProxy */;
+		};
+		648D9EDD1B7482ED00ACBB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648D9EC31B7482ED00ACBB13 /* Quizzard Watch WatchKit 1 Extension */;
+			targetProxy = 648D9EDC1B7482ED00ACBB13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		648D9EB21B74829000ACBB13 /* Main.storyboard */ = {
@@ -156,6 +328,14 @@
 				648D9EB81B74829000ACBB13 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		648D9ED61B7482ED00ACBB13 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648D9ED71B7482ED00ACBB13 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Quizzard Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch";
@@ -259,10 +440,63 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Quizzard Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		648D9EE01B7482ED00ACBB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Quizzard_Watch_WatchKit_1_Extension;
+				INFOPLIST_FILE = "Quizzard Watch WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		648D9EE11B7482ED00ACBB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Quizzard_Watch_WatchKit_1_Extension;
+				INFOPLIST_FILE = "Quizzard Watch WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		648D9EE31B7482ED00ACBB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quizzard Watch WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		648D9EE41B7482ED00ACBB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quizzard Watch WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alxcancado.Quizzard-Watch.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -283,6 +517,22 @@
 			buildConfigurations = (
 				648D9EBE1B74829000ACBB13 /* Debug */,
 				648D9EBF1B74829000ACBB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		648D9EDF1B7482ED00ACBB13 /* Build configuration list for PBXNativeTarget "Quizzard Watch WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648D9EE01B7482ED00ACBB13 /* Debug */,
+				648D9EE11B7482ED00ACBB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		648D9EE21B7482ED00ACBB13 /* Build configuration list for PBXNativeTarget "Quizzard Watch WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648D9EE31B7482ED00ACBB13 /* Debug */,
+				648D9EE41B7482ED00ACBB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
